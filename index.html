@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="zh-TW">
 <head>
@@ -34,6 +35,54 @@
         }
 
         .social-btn {
+            display: block;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+        }
+
+        .ig {
+            background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+        }
+
+        .dc {
+            background-color: #5865F2;
+            cursor: pointer;
+        }
+
+        /* 新增的抖音 TikTok 按鈕樣式 */
+        .tiktok {
+            background: linear-gradient(45deg, #000000 60%, #25F4EE, #FE2C55);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>歡迎來到我的空間 👋</h1>
+        
+        <!-- Instagram 按鈕 -->
+        <a href="https://www.instagram.com/kaixin8504?igsh=MTFvbmppczdkbXFzZg==" target="_blank" class="social-btn ig">
+            📸 Instagram
+        </a>
+
+        <!-- 新增的抖音按鈕 -->
+        <!-- 記得把下方 href 裡面的「你的抖音網址」換成你真正的帳號連結喔！ -->
+        <a href="https://www.tiktok.com/@bigazs666?_r=1&_t=ZS-96lWTYdav3P" target="_blank" class="social-btn tiktok">
+            🎵 抖音 / TikTok
+        </a>
+
+        <!-- Discord 按鈕 -->
+        <div onclick="alert('我的 Discord 帳號是：123few44')" class="social-btn dc">
+            💬 Discord
+        </div>
+    </div>
+
+</body>
+</html>
             display: block;
             padding: 12px;
             margin: 10px 0;
